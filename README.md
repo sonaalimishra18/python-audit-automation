@@ -1,19 +1,47 @@
-# Automated Spatial Data Quality Auditor
+# Python Audit Automation
 
-A Python-based automation tool that audits large-scale municipal land parcel datasets for topological errors and missing attributes, cutting a 3-day manual audit down to under 2 minutes.
+## Project Overview
+This project automates the quality checking of GIS spatial data using Python. It helps identify data errors, validate records, and generate reports, reducing manual effort and improving accuracy.
 
-## Problem
-Manual QA/QC on land parcel datasets was slow and error-prone — a single audit cycle across 10,000+ records took up to 3 days, delaying downstream urban planning decisions.
+## Problem Statement
+Manual GIS data validation is time-consuming and prone to errors. This project automates the validation process to improve efficiency.
 
-## Approach
-- Built Python scripts to programmatically detect topological errors: overlaps, gaps, and slivers
-- Added logic to flag missing or inconsistent attribute data
-- Generated automated Data Health Reports (CSV/Excel) for stakeholders, replacing manual spot-checks
+## Objectives
+- Validate GIS datasets
+- Detect missing or incorrect values
+- Improve data quality
+- Save time through automation
 
-## Tools Used
-Python, ArcGIS, Excel, GeoPandas
+## Tools & Technologies
+- Python
+- ArcGIS
+- QGIS
+- SQL
+- Microsoft Excel
 
-## Outcome
-- Reduced a 3-day manual audit process to a 2-minute automated script
-- Achieved 100% data integrity validation across 10,000+ municipal land parcel records
-- Standardized reporting output for non-technical stakeholders
+## Features
+- Data validation
+- Duplicate record detection
+- Error reporting
+- Automated data processing
+
+## Project Workflow
+1. Import GIS dataset
+2. Validate records
+3. Detect errors
+4. Generate report
+5. Export cleaned results
+
+## Results
+- Reduced manual validation time
+- Improved GIS data accuracy
+- Automated quality checking
+
+## Future Improvements
+- Interactive dashboard
+- Web-based interface
+- AI-powered error detection
+
+## Author
+Sonali Mishra
+GIS Analyst | Python | SQL | ArcGIS
